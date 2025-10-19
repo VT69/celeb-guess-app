@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the ASS 🍑</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Guess the ASS 🍑</h1>
+            <div class="player-info">
+                <input type="text" id="playerName" placeholder="Enter your name" maxlength="20">
+                <button id="startGame">Start Game</button>
+            </div>
+        </header>
+
+        <div id="gameArea" class="hidden">
+            <div class="game-header">
+                <div class="score-info">
+                    <span>Player: <span id="currentPlayer"></span></span>
+                    <span>Score: <span id="currentScore">0</span></span>
+                    <span>Question: <span id="questionNumber">1</span>/10</span>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="celebrity-image">
+                    <img id="celebrityImg" src="" alt="Celebrity">
+                </div>
+                
+                <div class="question-text">
+                    <h2>Who is this celebrity?</h2>
+                </div>
+
+                <div class="options-container">
+                    <button class="option-btn" data-option="0"></button>
+                    <button class="option-btn" data-option="1"></button>
+                    <button class="option-btn" data-option="2"></button>
+                    <button class="option-btn" data-option="3"></button>
+                </div>
+            </div>
+
+            <div class="feedback hidden" id="feedback">
+                <div class="feedback-content">
+                    <span id="feedbackText"></span>
+                    <button id="nextQuestion">Next Question</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="gameOver" class="hidden">
+            <div class="game-over-content">
+                <h2>🎉 Game Over!</h2>
+                <div class="final-score">
+                    <p>Great job, <span id="finalPlayerName"></span>!</p>
+                    <p>Your final score: <span id="finalScore"></span>/10</p>
+                    <div class="score-message" id="scoreMessage"></div>
+                </div>
+                <button id="playAgain">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
