@@ -26,22 +26,22 @@ const celebrities = [
         category: "Actress"
     },
     {
-        name: "Meryl Streep",
-        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop&crop=face",
+        name: "Alexandra Daddario",
+        image: "alex_dadd_ass.png",
         category: "Actress"
     },
     {
-        name: "Will Smith",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-        category: "Actor"
-    },
-    {
-        name: "Angelina Jolie",
-        image: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&h=400&fit=crop&crop=face",
+        name: "Madison Beer",
+        image: "mad_beer_ass.jpeg",
         category: "Actress"
     },
     {
-        name: "Brad Pitt",
+        name: "Megan Fox",
+        image: "meg_fox_ass.jpg",
+        category: "Actress"
+    },
+    {
+        name: "Kylie Jenner",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
         category: "Actor"
     },
@@ -51,7 +51,7 @@ const celebrities = [
         category: "Actress"
     },
     {
-        name: "Robert Downey Jr.",
+        name: "Kim Kardashian",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
         category: "Actor"
     },
@@ -61,7 +61,7 @@ const celebrities = [
         category: "Actress"
     },
     {
-        name: "Johnny Depp",
+        name: "Khloe Kardashian",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
         category: "Actor"
     }
